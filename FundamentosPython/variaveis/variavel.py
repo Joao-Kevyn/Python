@@ -9,9 +9,13 @@ idade = 0;
 altura = 0.0; 
 nome = "";
 
-print ("Solicitação de dados do usuário");
-idade = input("Digite sua idade: ");
-altura = input("Digite sua altura: ");
+#Vamos já fazer a atribuição do tipo do dado pq cojitamos que o usuário vai informar os dados corretos.
+print ("Solicitação de dados do usuário"); 
+idade = int(input("Digite sua idade: "));
+altura = float (input("Digite sua altura: "));
 nome = input("Digite seu nome:");
-print ("Os dados do usuário são: ", idade, altura, nome);
+# print ("Os dados do usuário são: ", idade, altura, nome);
+print("A idade digitada foi:", idade);
+print("A altura digitada foi:", altura);
+print("O nome digitado foi:", nome);
 
